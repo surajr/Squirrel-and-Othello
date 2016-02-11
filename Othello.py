@@ -39,7 +39,6 @@ def minimax_alpha_beta(initialStates,depth,maxPlayer):
         nextWrite=open(os.devnull,'w+')
     return nextState
 
-
 #Min Value inside Alphabeta
 
 def min_value_alpha_beta(initialStates,depth,minPlayer,node,alpha,beta):
