@@ -8,8 +8,6 @@ import numpy
 ##################################################
 #Alpha Beta Pruning
 ##################################################
-
-
 def minimax_alpha_beta(initialStates,depth,maxPlayer):
     v=-9999999999
     value=[]
